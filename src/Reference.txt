@@ -1,0 +1,7 @@
+=> create a new React app. Customize my-react-app with your desired project name.
+=> install eslint, ES7+ React/Redux/React-Native snippets from extensions; 
+=> start building your application with various components.
+=> keep on installing dependencies like react-router-dom, bootstrap, etc according to use.
+
+=> Navlink, Link will work when-
+You're using Link from react-router-dom, which is calling useContext. The context it is looking for is provided by BrowserRouter, but your app is not wrapped by a BrowserRouter. Your index.js:
