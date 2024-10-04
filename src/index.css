@@ -1,9 +1,17 @@
+
 * {
   margin: 0;
   padding: 0;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family:'SellenaBrush';
+}
+@font-face {
+  font-family: 'SellenaBrush';
+  src: local('SellenaBrush') url(./fonts/sellena-brush-font/SellenaBrush-x3JyK.ttf) format('truetype');
 }
 
+.navbar-options a {
+  margin: 10px;
+}
 .Homepage {
   width: 100%;
   height: 100%;
@@ -16,11 +24,29 @@ video {
 }
 
 .about {
-height: 300px;
-padding-top: 180px;
+height: 400px;
+padding-top: 80px;
 }
+
+.intro, .intro-msg {
+  font-family: 'SellenaBrush';
+  transition: all 0.3s linear;
+}
+
+.intro:hover, .intro-msg:hover{
+ color: rgb(213, 148, 8);
+  }
+
+/* .description h4{
+  transition: all 0.3s linear;
+}
+.description h4:hover {
+  color: rgb(213, 148, 8);
+} */
 .skills {
-  background-color: rgb(169, 169, 169);
+  background-color: rgb(0, 0, 0);
+  /* font-size: medium; */
+  color: #f6f2f2;
   height: 230px;
   padding-top: 80px;
 }
@@ -45,18 +71,94 @@ padding-top: 180px;
 }
 
 .contact {
-  padding-top: 50px;
   position:relative;
-  pointer-events:none;
+  /* pointer-events:none; */
   display:inline-block;
   z-index:1;
+  margin-top: -30px;
+ 
 }
 
+.description .dynamic-txts {
+  margin-left: 15px;
+  line-height: 90px;
+  height: 90px;
+  overflow: hidden;
+}
+
+.dynamic-txts li{
+  list-style: none;
+  color: rgb(11, 11, 11) ;
+  font-size: 25px;
+  font-weight: 100;
+  top: 0;
+  position: relative;
+  animation: slide 12s steps(4) infinite;
+}
+
+@keyframes slide {
+100%  {
+  top: -360px;
+}
+}
+.dynamic-txts li{
+  position: relative;
+}
+
+.dynamic-txts li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height:100% ;
+  width: 100%;
+  background-color: rgb(255, 253, 253);
+  /* border-left: 2px solid rgb(54, 10, 143); */
+  animation: typing 3s steps(30) infinite;
+}
+
+/* animation for creatin the typed effect */
+@keyframes typing {
+  40%,
+  60% {
+    left: calc(100% + 30px);
+  }
+  100%{
+    left: 0;
+  }
+}
 
 .container-fluid {
   display: flex;
+  background-color: black;
 }
+
 .navbar-brand {
   margin-left: 30px;
   margin-right: 650px;
+}
+
+.resume-button {
+    background: white;
+    font-size: medium;
+    width: 140px;
+    height: 35px;
+    color: goldenrod;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    transition: all 300ms;
+}
+
+.resume-button a{
+  text-decoration: none;
+}
+.resume-button:hover {
+  color: #494949;
+  border: 2px solid #494949;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+.btn {
+  margin-top: 40px;
+  text-decoration: none;
 }

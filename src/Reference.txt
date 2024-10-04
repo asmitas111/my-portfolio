@@ -5,3 +5,9 @@
 
 => Navlink, Link will work when-
 You're using Link from react-router-dom, which is calling useContext. The context it is looking for is provided by BrowserRouter, but your app is not wrapped by a BrowserRouter. Your index.js:
+
+=> used shapedivider.app to make my footer curve
+
+=> used animated cursor from react.
+
+-----------------------------------------

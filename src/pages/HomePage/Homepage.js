@@ -2,11 +2,14 @@ import React from 'react'
 import video from '../../Assets/images/sculpturebackground.mp4'
 import About from '../About/About';
 import Skills from '../Skills/Skills';
+// import Connect from '../Connect';
 // eslint-disable-next-line no-unused-vars
-import fluid from '../Skills/fluid';
-import Contact from '../Contact/Contact';
+// import fluid from '../Skills/fluid';
+// import Contact from '../Contact/Contact';
 import Footer from '../../components/Footer/Footer';
+import Contact from '../Contact/Contact';
 function Homepage() {
+
   return (
     <div>
       <div>
@@ -23,10 +26,10 @@ function Homepage() {
 
       <Footer />
 
-      <Contact />
-
-      <fluid />
       
+{/* <Connect/>  */}
+
+<Contact />
     </div>
 
   )
