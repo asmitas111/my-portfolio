@@ -10,4 +10,6 @@ You're using Link from react-router-dom, which is calling useContext. The contex
 
 => used animated cursor from react.
 
+=> used react scroll for smooth scroll from navbar
+
 -----------------------------------------

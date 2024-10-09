@@ -9,7 +9,7 @@ import Skills from '../Skills/Skills';
 import Footer from '../../components/Footer/Footer';
 import Contact from '../Contact/Contact';
 function Homepage() {
-
+ const name = `Asmita ‪‪❤︎‬` ;
   return (
     <div>
       <div>
@@ -29,7 +29,7 @@ function Homepage() {
       
 {/* <Connect/>  */}
 
-<Contact />
+<Contact name={name}/>
     </div>
 
   )

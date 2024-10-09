@@ -1,10 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.css';
+// Put any other imports below so that CSS from your
+// components takes precedence over default styles.;
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import './fonts/sellena-brush-font/SellenaBrush-x3JyK.ttf'
+// import 'bootstrap/dist/js/bootstrap.bundle';
 // /Users/2141696/my-portfolio/src/fonts/sellena-brush-font/SellenaBrush-x3JyK.ttf
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -9,6 +9,9 @@
   src: local('SellenaBrush') url(./fonts/sellena-brush-font/SellenaBrush-x3JyK.ttf) format('truetype');
 }
 
+/* .body{
+  display: grid;
+} */
 .navbar-options a {
   margin: 10px;
 }
@@ -162,3 +165,94 @@ padding-top: 80px;
   margin-top: 40px;
   text-decoration: none;
 }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 970px) {
+.navbar-brand {
+  margin-right: 350px;
+}
+  }
+
+  @media only screen and (max-width: 768px) {
+    .contact {
+       padding: 10px;
+     }
+    .contact h2 {
+       font-size: 18px;
+       margin-bottom: 10px;
+     }
+    .container {
+       flex-direction: column;
+       align-items: center;
+     }
+    .logo {
+       margin: 5px;
+     }
+    .logo img {
+       width: 30px;
+       height: 30px;
+     }
+     .header {
+      width: fit-content;
+    }
+
+    .skills .container{
+      margin-left: 80px;
+    };
+  
+   }
+   
+   /* For medium screens (tablet) */
+   @media only screen and (max-width: 992px) {
+    .contact {
+       padding: 15px;
+     }
+    .contact h2 {
+       font-size: 20px;
+       margin-bottom: 15px;
+     }
+    .container {
+       flex-direction: row;
+       justify-content: space-around;
+     }
+    .logo {
+       margin: 10px;
+     }
+    .logo img {
+       width: 35px;
+       height: 35px;
+     }
+
+     .skills .container{
+      margin-left: 110px;
+    };
+   }
+   
+   /* For large screens (desktop) */
+   @media only screen and (min-width: 1200px) {
+    .contact {
+       padding: 20px;
+     }
+    .contact h2 {
+       font-size: 24px;
+       margin-bottom: 20px;
+     }
+    .container {
+       justify-content: space-around;
+     }
+    .logo {
+       margin: 15px;
+     }
+    .logo img {
+       width: 40px;
+       height: 40px;
+     }
+   }
+
+
+
+   @media only screen and (max-width: 786px) {
+   body{
+    display: grid;
+   }
+  }
