@@ -8,7 +8,7 @@ function Header() {
         <div className="container-fluid md auto">
           <a className="navbar-brand" style=
     {{color: 'bisque'}}href="/">
-            ASM
+            A.SRI
           </a>
        
           <div className="collapse navbar-collapse" id="navbarCollapse" style={ {marginLeft: 'auto', marginRight:'30px' }}>

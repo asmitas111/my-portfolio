@@ -24,17 +24,17 @@ const About = () => {
         <h4 className="intro-msg">
           I am your fashionista, foodie and creative Software Engineer
         </h4>
-        <p>
+        <p style= {{margin: '3%'}}>
           I am a Software Engineer at Cognizant Technology. I effortlessly
           switch between debugging code and curating the perfect travel
-          itinerary. When I'm not optimizing algorithms, i'm scouting the latest
+          itinerary. When I'm not optimizing algorithms or application performances, I'm scouting the latest
           fashion trends. My journey at Cognizant Technology Solutions evolved
           from crafting efficient web applications as a Programmer Analyst
           Trainee to engineering advanced, customer-centric projects as a
           Fullstack Software Engineer now. As a dynamic and innovative software
-          engineer ps:a little bragging didn't harm anyone, I have made
-          significant contributions to multiple projects in energy sector to
-          banking clients constantly delivering high-quality results.
+          engineer (ps:a little bragging didn't harm anyone), I have made
+          significant contributions from reducing error-rates to enhancing user experiences for multiple 
+          clients constantly delivering high-quality results.
         </p>
 
         <div></div>
