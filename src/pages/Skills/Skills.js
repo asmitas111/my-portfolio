@@ -26,7 +26,7 @@ const Skills = () => {
       <div className="btn">
         <button className="resume-button">
           <a
-            href="https://drive.google.com/file/d/1R4FK9H6tsMY74x7DqmudzdVviHuXkYVl/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1BC04ZwFVIOyOVcb-WJKbQ8qFr_NgVv27/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             download="resume.pdf"
